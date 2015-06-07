@@ -75,7 +75,7 @@ public class GoalPage extends ActionBarActivity {
     //function would be used in upcoming model to use services and threads for creating
     //dynamic image tickers from database/web making app visually apealing
     public void generateImageDynamics(View view){
-        Toast.makeText(this, "Dynamic Image, Database Link Required", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Dynamic Image, Database Link Required", Toast.LENGTH_SHORT).show();
     }
 
     //re adjusting widgets according to screen size
@@ -140,7 +140,7 @@ public class GoalPage extends ActionBarActivity {
             startActivity(intentGoal);
         }
         else{
-            Toast.makeText(this, activity + " : NOT RECOGNIZED", Toast.LENGTH_LONG).show();
+            Toast.makeText(this, activity + " : NOT RECOGNIZED", Toast.LENGTH_SHORT).show();
         }
     }
 }

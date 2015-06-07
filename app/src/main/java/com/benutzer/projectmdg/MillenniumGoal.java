@@ -107,27 +107,27 @@ public class MillenniumGoal extends ActionBarActivity {
     //the function currently only show a toast related to the goal number
     private void aboutCall(){
         String message = "MDG " + goalNumber + " : This function provides details about the MDG " + goalNumber;
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     private void countryStatusCall(){
         String message  = "MDG " + goalNumber + " : This function provides country achievement of MDG " + goalNumber;
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     private void liveFeedCall(){
         String message  = "MDG " + goalNumber + " : This function provides live feed by people globally about MDG " + goalNumber;
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     private void shareViewsCall(){
         String message  = "MDG " + goalNumber + " : This function helps in sharing our views via Twitter/fb/g+ about MDG " + goalNumber;
-        Toast.makeText(this, message, Toast.LENGTH_LONG).show();
+        Toast.makeText(this, message, Toast.LENGTH_SHORT).show();
     }
 
     //baseImage function for making it dynamic when connected via database, work in progress
     public void generateBaseImageDynamics(View view){
-        Toast.makeText(this, "Dynamic Image, Database Link Required", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Dynamic Image, Database Link Required", Toast.LENGTH_SHORT).show();
     }
 
     //Default switch method

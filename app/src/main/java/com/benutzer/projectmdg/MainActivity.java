@@ -99,7 +99,7 @@ public class MainActivity extends ActionBarActivity {
     //It needs server linkage for issue of data feed about MDG
     public void openAboutPage(View view){
 
-        Toast.makeText(this, "Database Link required", Toast.LENGTH_LONG).show();
+        Toast.makeText(this, "Database Link required", Toast.LENGTH_SHORT).show();
 
     }
 }
